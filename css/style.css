@@ -2,10 +2,10 @@ body{
 	text-align: center;
 }
 h1.solid_color {
-	background-color:DodgerBlue;
+	background-color:Blue;
 }
 p.solid_color {
-	background-color:Tomato;
+	background-color:cyan;
 }
 h2.hex_color {
 	background-color:#ff0000;
@@ -32,13 +32,13 @@ h3.rgba_color {
     padding: 100px;
 }
 .border {
-	border: 6px dotted red;
+	border: 6px groove green;
   	background-color: lightgrey;
 }
 .border_side {
   	background-color: lightgrey;
 	border-color: blue;
-	border-style: dotted solid;
+	border-style: dashed;
 	border-width: 6px;
 }
 .rounded {
@@ -93,7 +93,7 @@ h3.rgba_color {
   	text-indent: 50px;
   	text-align: justify;
   	letter-spacing: 3px;
-  	text-transform: capitalize;
+  	text-transform: uppercase;
 }
 .text a {
   	text-decoration: none;
