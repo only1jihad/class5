@@ -1,0 +1,101 @@
+body{
+	text-align: center;
+}
+h1.solid_color {
+	background-color:DodgerBlue;
+}
+p.solid_color {
+	background-color:Tomato;
+}
+h2.hex_color {
+	background-color:#ff0000;
+}
+h3.hex_color {
+	background-color:#0000ff;
+}
+h2.rgb_color {
+	background-color:rgb(255, 0, 0);
+}
+h3.rgb_color {
+	background-color:rgb(0, 0, 255);
+}
+h2.rgba_color {
+	background-color:rgba(255, 99, 71, 0.5);
+}
+h3.rgba_color {
+	background-color:rgba(255, 99, 71, 0.8);
+}
+.bg_img {
+    color: #ffffff;
+    background: #000000 url("../images/pexels-pixabay-33045.jpg") no-repeat center center/cover;
+    font-size: 50px;
+    padding: 100px;
+}
+.border {
+	border: 6px dotted red;
+  	background-color: lightgrey;
+}
+.border_side {
+  	background-color: lightgrey;
+	border-color: blue;
+	border-style: dotted solid;
+	border-width: 6px;
+}
+.rounded {
+	border: 6px solid red;
+	border-radius: 30px;
+  	background-color: lightgrey;
+  	padding: 10px;
+}
+.box {
+	background: #ffff00;
+	width: 200px;
+	height: 200px;
+	margin: 70px;
+}
+.box2 {
+	background: #ffff00;
+	width: 200px;
+	height: 200px;
+	padding: 70px;
+}
+.box_model {
+    background-color: lightgrey;
+    width: 300px;
+    border: 50px solid #ffff00;
+    padding: 50px;
+    margin: 50px;
+}
+.outline {
+    background-color: lightgrey;
+    border: 5px solid #000000;
+    outline: 5px solid #ffff00;
+    padding: 10px;
+}
+.outline_offset {
+    margin: 30px;
+    background-color: lightgrey;
+    border: 5px solid #000000;
+    outline: 5px solid #ffff00;
+    outline-offset: 10px;
+}
+.text {
+  	border: 1px solid gray;
+  	padding: 15px;
+}
+.text h1 {
+  	text-align: center;
+  	text-transform: uppercase;
+  	color: #000000;
+  	text-shadow: 2px 2px 5px red;
+}
+.text p {
+  	text-indent: 50px;
+  	text-align: justify;
+  	letter-spacing: 3px;
+  	text-transform: capitalize;
+}
+.text a {
+  	text-decoration: none;
+  	color: #008CBA;
+}
