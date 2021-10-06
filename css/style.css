@@ -49,15 +49,15 @@ h3.rgba_color {
   	padding: 10px;
 }
 .box {
-	background: #ffff00;
-	width: 200px;
-	height: 200px;
+	background: #1061f5;
+	width: 350px;
+	height: 350px;
 	margin: 70px;
 }
 .box2 {
-	background: #ffff00;
-	width: 200px;
-	height: 200px;
+	background: #1061f5;
+	width: 800px;
+	height: 500px;
 	padding: 70px;
 }
 .box_model {
