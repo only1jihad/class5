@@ -42,7 +42,8 @@ h3.rgba_color {
 	border-width: 6px;
 }
 .rounded {
-	border: 6px solid red;
+	border:3px double;
+	border-color: #4fff8a;
 	border-radius: 30px;
   	background-color: lightgrey;
   	padding: 10px;
